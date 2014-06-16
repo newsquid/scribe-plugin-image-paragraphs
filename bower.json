@@ -1,5 +1,5 @@
 {
   "name": "scribe-plugin-image-paragraphs",
-  "main": "src/scribe-plugin-image-paragraphs",
+  "main": "src/scribe-plugin-image-paragraphs.js",
   "version": "0.1.0"
 }
