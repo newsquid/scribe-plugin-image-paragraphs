@@ -7,13 +7,13 @@ define(function(){
     return function(scribe){
 
       scribe.el.addEventListener('keyup', onInput);
-      scribe.el.addEventListener('click', onInput);
+      //scribe.el.addEventListener('click', onInput);
 
       function onInput(event){
 
         scribe.transactionManager.run(function(){
           insertHoverEvents();
-        })
+        });
 
       }
 
@@ -51,6 +51,8 @@ define(function(){
         mediaBarElement.style.left = element.offsetLeft + "px";
         mediaBarElement.style.position = 'absolute';
 
+        mediabarElement.focus();
+
         return mediaBarElement;
       }
 
@@ -58,6 +60,6 @@ define(function(){
         mediaBarElement.style.display = "none";
       }
 
-    }
-  }
+    };
+  };
 });

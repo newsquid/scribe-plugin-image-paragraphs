@@ -21,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/newsquid/scribe-plugin-image-paragraphs/issues"
   },
-  "homepage": "https://github.com/newsquid/scribe-plugin-image-paragraphs"
+  "homepage": "https://github.com/newsquid/scribe-plugin-image-paragraphs",
+  "devDependencies": {}
 }
