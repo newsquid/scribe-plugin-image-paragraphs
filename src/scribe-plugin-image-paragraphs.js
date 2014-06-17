@@ -51,8 +51,6 @@ define(function(){
         mediaBarElement.style.left = element.offsetLeft + "px";
         mediaBarElement.style.position = 'absolute';
 
-        mediaBarElement.focus();
-
         return mediaBarElement;
       }
 
